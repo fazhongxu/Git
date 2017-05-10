@@ -1,8 +1,13 @@
 touch README.md		//创建
+
 git init		//初始化
+
 git add README.md	//添加
+
 git commit -m "first commit" //commit本地
+
 git remote add orgin https://github.com/fazhongxu/ZxingDemo.git    //远程remote 源头orgin
+
 git push -u orgin master
 
 //Push an existing repository from the command line
