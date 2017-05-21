@@ -26,3 +26,5 @@ git clone https://github.com/fazhongxu/MVPDemo.git
 可以通过如下命令进行代码合并 [注：pull=fetch+merge]
 
 git pull --rebase origin master
+
+git remote rm origin //移除现有仓库地址
