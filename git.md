@@ -13,6 +13,9 @@ git push -u orgin master
 //Push an existing repository from the command line
 
 git remote add orgin https://github.com/fazhongxu/ZxingDemo.git
+
+git pull orgin master //先pull再 push
+
 git push -u orgin master
 
 git add . //添加整个目录
