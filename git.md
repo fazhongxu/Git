@@ -34,4 +34,4 @@ git remote rm origin //移除现有仓库地址
 
 ![image](https://imageUrl)           //![image] (url)  README 里面添加图片 把括号里面的imageUrl替换为自己的图片所在的地址就可显示了
 
-git status //查看文件状态
+git status //查看文件当前管理状态
