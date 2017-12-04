@@ -41,7 +41,11 @@ git 更新.gitignore文件
 vim .gitignore 编辑好要忽略的文件之后保存
 
 git rm -r --cached .   //注意有.        清除缓存区
+
 git add .
+
 git commit -m "update gitignore"
+
 git pull
+
 git push
