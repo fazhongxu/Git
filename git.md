@@ -49,3 +49,12 @@ git commit -m "update gitignore"
 git pull
 
 git push
+
+git stash 正在工作的项目代码 暂存
+
+git stash list 列出存储的代码
+
+git stash pop 出栈第一个 会删除存储的对应出栈的代码
+
+git stash apply stash@{index} 出栈 不会删除存储的对应出栈的代码 index 为 git stash list 列出的索引
+
