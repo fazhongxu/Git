@@ -8,7 +8,7 @@ git commit -m "first commit" //commit本地
 
 git remote add orgin https://github.com/fazhongxu/ZxingDemo.git    //远程remote 源头orgin
 
-git push -u orgin master
+git push -u origin master
 
 //Push an existing repository from the command line
 
@@ -16,7 +16,7 @@ git remote add orgin https://github.com/fazhongxu/ZxingDemo.git
 
 git pull orgin master //先pull再 push
 
-git push -u orgin master
+git push -u origin master
 
 git add . //添加整个目录
 
@@ -45,6 +45,14 @@ git rm -r --cached .   //注意有.        清除缓存区
 git add .
 
 git commit -m "update gitignore"
+
+git branch //查看分支
+
+git checkout <name> //拉取分支
+
+git tag v1.0.0 // tag v1.0.0
+
+git push origin v1.0.0 // tag push 
 
 git pull
 
