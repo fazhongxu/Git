@@ -38,6 +38,9 @@ git status //查看文件当前管理状态
 
 git 更新.gitignore文件 
 
+git reset HEAD~  撤销commit
+
+
 vim .gitignore 编辑好要忽略的文件之后保存
 
 git rm -r --cached .   //注意有.        清除缓存区
@@ -66,3 +69,4 @@ git stash pop 出栈第一个 会删除存储的对应出栈的代码
 
 git stash apply stash@{index} 出栈 不会删除存储的对应出栈的代码 index 为 git stash list 列出的索引
 
+git reset HEAD~ 撤销commit 
