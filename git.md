@@ -38,9 +38,6 @@ git status //查看文件当前管理状态
 
 git 更新.gitignore文件 
 
-git reset HEAD~  撤销commit
-
-
 vim .gitignore 编辑好要忽略的文件之后保存
 
 git rm -r --cached .   //注意有.        清除缓存区
