@@ -72,6 +72,12 @@ git stash apply stash@{index} 出栈 不会删除存储的对应出栈的代码 
 
 git reset HEAD~ 撤销commit 
 
+git checkout -b (branch) feature/develop  创建并切换到 feature/develop 分支
+
+git branch feature/develop -d (或者 －D 强制删除)
+
+git push orgin :feature/develop  删除远程分支
+
 
 
 /***
