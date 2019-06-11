@@ -97,6 +97,10 @@ git push orgin :feature/develop  删除远程分支
   }
 ```
 
+### 下面是但行java代码
+
+`throw new IllegalArgumentException("errorMessageTemplate has no format specifiers");`
+
 这是*斜体*  
 
 这是**加粗**
@@ -140,7 +144,19 @@ git push orgin :feature/develop  删除远程分支
 
 #### 表格2
 
-姓名|技能｜排行
+姓名|技能|排行
+--|---|--|
+刘备|哭|老大
+关羽|打|老二
+张飞|骂|老三
+
+#### 表格3 ":" 是对齐方式  第二行 － 分割表头和内容  一个就有分割线 为了对齐多加几个
+
+姓名|技能|排行
+-|:-:|-:
+刘备|哭|管他排行第几
+关羽大哥|打的凶|排行老二
+张飞|骂人厉害|第三
 
 /***
  *                    .::::.
