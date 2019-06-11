@@ -188,12 +188,12 @@ git push orgin :feature/develop  删除远程分支
 
  序号|字段名称|是否必传|类型|备注
  ---|-------|-------|---|---
- 1  |pid    |yes    |string|合作方ID
- 2  |version|yes    |string|接口版本，默认v1
- 3  |timestamp|yes  |long  |时间戳
- 4  |sinatrue|yes   |string|签名
- 5  |format  |yes   |string|返回类型，json
- 6  |account |yes   |string|充值手机号
+ 1  |pid    |**yes**    |string|合作方ID
+ 2  |version|**yes**   |string|接口版本，默认v1
+ 3  |timestamp|**yes**  |long  |时间戳
+ 4  |sinatrue|**yes**   |string|签名
+ 5  |format  |**yes**   |string|返回类型，json
+ 6  |account |**yes**    |string|充值手机号
  7  |shop    |no    |string|标识
  
 #### 响应
