@@ -202,7 +202,7 @@ git push orgin :feature/develop  删除远程分支
     {
       "code ": 0,
       "msg": "发送余额不足提醒短信完成",
-      "data" {
+      "data": {
         "phone": "10000000000"
       }
     }
