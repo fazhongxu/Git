@@ -97,7 +97,7 @@ git push orgin :feature/develop  删除远程分支
   }
 ```
 
-### 下面是但行java代码
+### 下面是单行代码
 
 `throw new IllegalArgumentException("errorMessageTemplate has no format specifiers");`
 
