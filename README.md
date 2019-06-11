@@ -222,7 +222,33 @@ xxx edited this page 1minutes ago
 
 线上环境:group.xxx.com
 
+测试环境:beta-group.xxx.com
 
+开发环境:39.105.62.10 group.xxx.com
+
+#### 加入群组
+
+` POST /v1/join`
+
+#### 接口参数
+
+Name|TYPE|Required|Description
+----|----|--------|-----------
+gid |int |Y       |要加入的群组的ID
+
+#### 响应
+
+```
+   {
+    "error_code":0,
+    "error_msg":"",
+    "data": {
+            "gid":1231231, //加入的群的ID
+            "uid":1213123123123,  //加入用户的ID
+            "role":0 // 角色权限
+    }
+   }
+```
 
 /***
  *                    .::::.
