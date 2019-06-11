@@ -158,6 +158,58 @@ git push orgin :feature/develop  删除远程分支
 关羽大哥|打的凶|排行老二
 张飞|骂人厉害|第三
 
+
+
+#### 服务端wiki编写格式
+
+# 电影 余额不足提醒API
+
+编写者:xxxx
+
+联系方式:`xxx@qq.com` / `1000000000000'
+
+## 余额不足提醒API
+
+#### API 地址及校验信息：
+
+```
+    测试地址：https://www.xxx.com
+    正式环境地址：https://www.xxx.com
+```
+
+正式环境请联系后获取详细内容
+
+```
+   接口地址：xxxx
+```
+#### 请求方式：POST
+
+#### 传入参数：
+
+ 序号|字段名称|是否必传|类型|备注
+ ---|-------|-------|---|---
+ 1  |pid    |yes    |string|合作方ID
+ 2  |version|yes    |string|接口版本，默认v1
+ 3  |timestamp|yes  |long  |时间戳
+ 4  |sinatrue|yes   |string|签名
+ 5  |format  |yes   |string|返回类型，json
+ 6  |account |yes   |string|充值手机号
+ 7  |shop    |no    |string|标识
+ 
+#### 响应
+
+```
+    {
+      "code ": 0,
+      "msg": "发送余额不足提醒短信完成",
+      "data" {
+        "phone": "10000000000"
+      }
+    }
+```
+
+
+
 /***
  *                    .::::.
  *                  .::::::::.
