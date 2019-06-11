@@ -1,3 +1,4 @@
+
 # Git
 Git
 
@@ -79,6 +80,67 @@ git branch -d (或者 －D 强制删除） feature/develop
 git push orgin :feature/develop  删除远程分支
 
 
+
+
+### Markdown 语法
+
+# 这是一级标题 用 # 一直到6级标题 ######
+## 这是二级标题
+
+### 下面是java代码块  ``` java代码 ```
+ ``` 
+  public static <T> T checkNotNull(T reference, String errorMessage) {
+    if (reference == null) {
+      throw new NullPointerException(errorMessage);
+    }
+    return reference;
+  }
+```
+
+这是*斜体*  
+
+这是**加粗**
+
+这是分割线 
+
+---
+
+***
+
+### 这是无序列表 -+* 都可以
+
+* 无序列表1
+
++ 无序列表2
+
+- 无序列表3
+
+
+### 这是有序列表 数字加上. 跟上内容即可
+
+1. 有序列表1
+
+2. 有序列表2
+
+3. 有序列表3，注意点后有一个空格
+
+### 有序无序列表嵌套
+
+1. 有序一级内容
+      * 无序二级内容
+      
+      + 无序二级内容 前面三个空格号就好了
+
+### 表格
+
+#### 表格1 
+
+姓名|技能|排行
+---|---|---|
+
+#### 表格2
+
+姓名|技能｜排行
 
 /***
  *                    .::::.
