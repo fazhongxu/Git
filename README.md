@@ -79,6 +79,12 @@ git branch -d (或者 －D 强制删除） feature/develop
 
 git push orgin :feature/develop  删除远程分支
 
+git rm --cache filename 删除远程仓库某个文件 工作文件不删除
+
+git rm -r --cache dir_name 递归删除远程仓库某个文件夹及文件夹内所有文件 工作文件不删除（本地不删除）
+
+git rm file_name 删除本地和远程
+
 
 
 
