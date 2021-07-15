@@ -19,7 +19,7 @@ git push -u origin master
 
 git remote add orgin https://github.com/fazhongxu/ZxingDemo.git
 
-git pull orgin master //先pull再 push
+git pull origin master //先pull再 push
 
 git push -u origin master
 
