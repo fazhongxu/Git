@@ -11,7 +11,7 @@ git add README.md	//添加
 
 git commit -m "first commit" //commit本地
 
-git remote add orgin https://github.com/fazhongxu/ZxingDemo.git    //远程remote 源头orgin
+git remote add origin https://github.com/fazhongxu/ZxingDemo.git    //远程remote 源头origin
 
 git push -u origin master
 
