@@ -1,6 +1,6 @@
 
-# Git5
-Git5
+# Git
+Git
 
 
 touch README.md		//创建
