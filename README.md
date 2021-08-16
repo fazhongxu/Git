@@ -57,6 +57,8 @@ git checkout <name> //拉取分支
 
 git tag v1.0.0 // tag v1.0.0
 
+git tag -d tagname // 
+
 git push origin v1.0.0 // tag push 
 
 git pull
