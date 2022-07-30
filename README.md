@@ -61,6 +61,8 @@ git tag -d tagname //
 
 git push origin v1.0.0 // tag push 
 
+git push origin :v1.0.0 // tag 删除后 push
+
 git pull
 
 git push
