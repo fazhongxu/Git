@@ -91,6 +91,8 @@ git rm file_name 删除本地和远程
 
 git rm -r --cached .idea  删除已经提交的.idea文件
 
+git reflog 查看仓库引用日志，可以查看误删除的分支 然后恢复删除的分支
+
 
 
 
