@@ -95,6 +95,7 @@ git reflog 查看仓库引用日志，可以查看误删除的分支 然后恢�
 
 git revert <commit_id> 撤销某次提交
 
+git push --force 强制推送
 
 
 ### Markdown 语法
