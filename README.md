@@ -93,8 +93,9 @@ git rm -r --cached .idea  删除已经提交的.idea文件
 
 git reflog 查看仓库引用日志，可以查看误删除的分支 然后恢复删除的分支
 
-git revert <commit_id> 撤销某次提交
-
+git revert <commit_id> 撤销某次提交，会保留历史记录
+git reset 不会保留历史记录
+如果revert 重新push遇到冲突，确定没有别的更改可以强制push
 git push --force 强制推送
 
 
